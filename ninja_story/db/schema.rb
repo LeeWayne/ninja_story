@@ -11,12 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141017153653) do
+ActiveRecord::Schema.define(:version => 20141017154051) do
 
   create_table "choices", :force => true do |t|
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
     t.text     "description"
+    t.integer  "start_slide_id"
+    t.integer  "end_slide_id"
   end
 
   create_table "slides", :force => true do |t|

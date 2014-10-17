@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Story.create(sypnosis:"The sacred amulet of your village has been stolen!! It’s up to you to retrieve the sacred amulet and restore peace and harmony to the people! Good Luck!", user_id: integer)
+Story.create(sypnosis:"The sacred amulet of your village has been stolen!! It’s up to you to retrieve the sacred amulet and restore peace and harmony to the people! Good Luck!", user_id: "")
 
 
 Slide.create(id: 1, image: "", story_id: 1, description: "You leave the village and you come across a rickety bridge do you..")
@@ -52,18 +52,18 @@ Slide.create(id: 18, image: "", story_id: 1, description: "The magical song you 
 
 Slide.create(id: 19, image: "", story_id: 1, description: "WHAT WERE YOU THINKING NINJA?? A small amount of water cannot defeat a beast as large as Ifrit! THE END Please try again to save the sacred amulet!")
 
-Slide.create(id: 20, image: "", story_id: 1, description: "CONGRATULATIONS!!!!!!! You really are a true ninja, you super kicked IFRIT out into the night sky!! You have the Amulet and have brought peace and harmony back to your village!! WELL DONE #{nickname}!!")
+Slide.create(id: 20, image: "", story_id: 1, description: "CONGRATULATIONS!!!!!!! You really are a true ninja, you super kicked IFRIT out into the night sky!! You have the Amulet and have brought peace and harmony back to your village!! WELL DONE!!")
 
-Slide.create(id: 21, image: "", story_id: 1, description: "SMASH!! You throw the potion at IFRIT and it smashes against his scaly body and freezes him into eternity!!! CONGRATULATIONS #{nickname}!!!!!!! You have the Amulet and have brought peace and harmony back to your village!!
+Slide.create(id: 21, image: "", story_id: 1, description: "SMASH!! You throw the potion at IFRIT and it smashes against his scaly body and freezes him into eternity!!! CONGRATULATIONS!!!!!!! You have the Amulet and have brought peace and harmony back to your village!!
 ")
 
 Slide.create(id: 22, image: "", story_id: 1, description: "AHHHH, OUCH!! Your puney, weak, ninja skills are no match for the magnificent IFRIT YOU LOSE THE END Please try again to save the sacred amulet!")
 
-Slide.create(id: 23, image: "", story_id: 1, description: "We hear you NINJA #{nickname}!!
-The spirits of ninjas past, bestow you with their powers and you blast the feeble IFRIT out of Earths orbit!! Ninja’s always look after one another…..CONGRATULATIONS #{nickname}
-You have the Amulet and have brought peace and harmony back to your village!! THE END")
+Slide.create(id: 23, image: "", story_id: 1, description: "We hear you NINJA!!
+The spirits of ninjas past, bestow you with their powers and you blast the feeble IFRIT out of Earths orbit!! Ninja’s always look after one another…..CONGRATULATIONS You have the Amulet and have brought peace and harmony back to your village!! THE END")
 
-Choice.create(start_slide: 1, end_slide: 2, description: "Take your chance over the bridge?")
+Choice.create(start_slide_id: 1, end_slide_id: 2, description: "Take your chance over the bridge?")
+
 Choice.create(start_slide: 1, end_slide: 3, description: "Ninja jump over it?")
 Choice.create(start_slide: 2, end_slide: 4, description: "Bore him to death about Tesla!")
 Choice.create(start_slide: 2, end_slide: 5, description: "Ninja punch him out the way!")

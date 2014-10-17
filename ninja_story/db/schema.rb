@@ -22,7 +22,6 @@ ActiveRecord::Schema.define(:version => 20141017125704) do
   end
 
   create_table "slides", :force => true do |t|
-    t.string   "image"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
     t.integer  "story_id"

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141017113414) do
+ActiveRecord::Schema.define(:version => 20141017113601) do
 
   create_table "choices", :force => true do |t|
     t.integer  "slide_id"
@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(:version => 20141017113414) do
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
     t.integer  "story_id"
+    t.text     "description"
   end
 
   create_table "users", :force => true do |t|

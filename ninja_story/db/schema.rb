@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20141017125704) do
+ActiveRecord::Schema.define(:version => 20141017140023) do
 
   create_table "choices", :force => true do |t|
     t.datetime "created_at",  :null => false
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(:version => 20141017125704) do
     t.datetime "updated_at",  :null => false
     t.integer  "story_id"
     t.text     "description"
+    t.text     "image"
   end
 
   create_table "stories", :force => true do |t|

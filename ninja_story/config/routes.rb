@@ -4,5 +4,5 @@ NinjaStory::Application.routes.draw do
  resources :users
  resources :slides
  resources :choices
-
+ resources :strories
 end

@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  sypnosis: MyText
+  user_id: 1
+
+two:
+  sypnosis: MyText
+  user_id: 1

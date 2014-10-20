@@ -6,6 +6,7 @@
     text-decoration: none;
     color: #B6642E;
     font-size: 10px;
+    // margin-bottom: 20px;
 }
 .homeimage {
   height:100%;
@@ -15,9 +16,12 @@
   height: 200px;
   width: 500px;
   background: transparent;
-  border: 1px solid black;
+  border: 2px solid black;
   margin-left: 30px;
   padding: 5px 5px 5px 5px;
+  border-radius: 25px;
+  background-color: rgba(255,255,255,.7);
+  font-family: Verdana;
 }
 
 a {

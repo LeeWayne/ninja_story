@@ -64,44 +64,44 @@ The spirits of ninjas past, bestow you with their powers and you blast the feebl
 
 Choice.create(start_slide_id: 1, end_slide_id: 2, description: "Take your chance over the bridge?")
 
-Choice.create(start_slide: 1, end_slide: 3, description: "Ninja jump over it?")
-Choice.create(start_slide: 2, end_slide: 4, description: "Bore him to death about Tesla!")
-Choice.create(start_slide: 2, end_slide: 5, description: "Ninja punch him out the way!")
-Choice.create(start_slide: 3, end_slide: 5, description: "Ninja kick him out the way!")
-Choice.create(start_slide: 3, end_slide: 6, description: "Tell him about your journey and hope he understands!!")
-Choice.create(start_slide: 4, end_slide: 7, description: "Build a bridge with those logs!!")
-Choice.create(start_slide: 4, end_slide: 8, description: "Ninja leap yourself over them!")
-Choice.create(start_slide: 5, end_slide: 9, description: "Go through the the cobwebbed entrance..")
-Choice.create(start_slide: 5, end_slide: 10, description: "Enter through the bat ridden opening?")
-Choice.create(start_slide: 6, end_slide: 11, description: "Make a giant ninja leap over the serpent..")
-Choice.create(start_slide: 6, end_slide: 12, description: "Hypnotise him with your well trained ninja eyes!")
-Choice.create(start_slide: 7, description: "OH NO!!!!! THE BRIDGE COLLAPSES!!! Your Ninja skills don’t include building bridges….. THE END Please try again to save the sacred Goblet!")
-Choice.create(start_slide: 8, end_slide: 13, description: "Try to run past him as he only has one leg!")
-Choice.create(start_slide: 8, end_slide: 14, description: "Give him the cloak you picked up earlier…")
-Choice.create(start_slide: 9, description: "AAAHHHHHHHH!!!! The spiders cover you from head to toe and you can’t get away!! THE END Please try again to save the sacred Goblet!")
-Choice.create(start_slide: 10, end_slide: 15, description: "Ninja roll underneath the old witch!")
-Choice.create(start_slide: 10, end_slide: 16, description: "Tell the mage about your quest in hope it will aid you on you travels!")
-Choice.create(start_slide: 11, description: "CHOMP!!!
+Choice.create(start_slide_id: 1, end_slide_id: 3, description: "Ninja jump over it?")
+Choice.create(start_slide_id: 2, end_slide_id: 4, description: "Bore him to death about Tesla!")
+Choice.create(start_slide_id: 2, end_slide_id: 5, description: "Ninja punch him out the way!")
+Choice.create(start_slide_id: 3, end_slide_id: 5, description: "Ninja kick him out the way!")
+Choice.create(start_slide_id: 3, end_slide_id: 6, description: "Tell him about your journey and hope he understands!!")
+Choice.create(start_slide_id: 4, end_slide_id: 7, description: "Build a bridge with those logs!!")
+Choice.create(start_slide_id: 4, end_slide_id: 8, description: "Ninja leap yourself over them!")
+Choice.create(start_slide_id: 5, end_slide_id: 9, description: "Go through the the cobwebbed entrance..")
+Choice.create(start_slide_id: 5, end_slide_id: 10, description: "Enter through the bat ridden opening?")
+Choice.create(start_slide_id: 6, end_slide_id: 11, description: "Make a giant ninja leap over the serpent..")
+Choice.create(start_slide_id: 6, end_slide_id: 12, description: "Hypnotise him with your well trained ninja eyes!")
+Choice.create(start_slide_id: 7, description: "OH NO!!!!! THE BRIDGE COLLAPSES!!! Your Ninja skills don’t include building bridges….. THE END Please try again to save the sacred Goblet!")
+Choice.create(start_slide_id: 8, end_slide_id: 13, description: "Try to run past him as he only has one leg!")
+Choice.create(start_slide_id: 8, end_slide_id: 14, description: "Give him the cloak you picked up earlier…")
+Choice.create(start_slide_id: 9, description: "AAAHHHHHHHH!!!! The spiders cover you from head to toe and you can’t get away!! THE END Please try again to save the sacred Goblet!")
+Choice.create(start_slide_id: 10, end_slide_id: 15, description: "Ninja roll underneath the old witch!")
+Choice.create(start_slide_id: 10, end_slide_id: 16, description: "Tell the mage about your quest in hope it will aid you on you travels!")
+Choice.create(start_slide_id: 11, description: "CHOMP!!!
 The snake is quicker than you ninja, and gobbles you up! THE END Please try again to save the sacred Goblet!")
-Choice.create(start_slide: 12, end_slide: 17, description: "Kick your way through the spirit!")
-Choice.create(start_slide: 12, end_slide: 18, description: "Play the old flute you picked up earlier!")
-Choice.create(start_slide: 13, description: "STOMP!!
+Choice.create(start_slide_id: 12, end_slide_id: 17, description: "Kick your way through the spirit!")
+Choice.create(start_slide_id: 12, end_slide_id: 18, description: "Play the old flute you picked up earlier!")
+Choice.create(start_slide_id: 13, description: "STOMP!!
 Frank hopped from his boulders and squished you…..THE END Please try again to save the sacred Goblet!")
-Choice.create(start_slide: 14, end_slide: 19, description: "You throw the water you cleverly picked up earlier, on the fire breathing beast!")
-Choice.create(start_slide: 14, end_slide: 20, description: "You use your super Ninja bicycle kick to defeat the dragon!")
-Choice.create(start_slide: 15, description: "FREEZE!!
+Choice.create(start_slide_id: 14, end_slide_id: 19, description: "You throw the water you cleverly picked up earlier, on the fire breathing beast!")
+Choice.create(start_slide_id: 14, end_slide_id: 20, description: "You use your super Ninja bicycle kick to defeat the dragon!")
+Choice.create(start_slide_id: 15, description: "FREEZE!!
 The mage petrifies you in your path, you can no longer move ninja… THE END Please try again to save the sacred Goblet!")
-Choice.create(start_slide: 16, end_slide: 21, description: "Use the freezing potion dropped earlier by the ninja!")
-Choice.create(start_slide: 16, end_slide: 22, description: "You use your super Ninja bicycle kick to defeat the dragon!")
-Choice.create(start_slide: 17, description: "WHOOSH!
+Choice.create(start_slide_id: 16, end_slide_id: 21, description: "Use the freezing potion dropped earlier by the ninja!")
+Choice.create(start_slide_id: 16, end_slide_id: 22, description: "You use your super Ninja bicycle kick to defeat the dragon!")
+Choice.create(start_slide_id: 17, description: "WHOOSH!
 The evil spirit sucks you up and spits you out to the Gods… THE END Please try again to save the sacred Goblet!")
-Choice.create(start_slide: 18, end_slide: 22, description: "Round house kick the evil dragon in the belly, knocking the smoke out of him!!")
-Choice.create(start_slide: 18, end_slide: 23, description: "Summon the spirits of past ninja’s to blast your way through the dragon!!")
-Choice.create(start_slide: 19, description: "WHAT WERE YOU THINKING NINJA?? A small amount of water cannot defeat a beast as large as Ifrit! THE END Please try again to save the sacred Goblet!")
-Choice.create(start_slide: 20, description: "You really are a true ninja, you super kicked IFRIT out into the night sky!! You have the Goblet and have brought peace and harmony back to your village!! WELL DONE!")
-Choice.create(start_slide: 21, description: "SMASH!!
+Choice.create(start_slide_id: 18, end_slide_id: 22, description: "Round house kick the evil dragon in the belly, knocking the smoke out of him!!")
+Choice.create(start_slide_id: 18, end_slide_id: 23, description: "Summon the spirits of past ninja’s to blast your way through the dragon!!")
+Choice.create(start_slide_id: 19, description: "WHAT WERE YOU THINKING NINJA?? A small amount of water cannot defeat a beast as large as Ifrit! THE END Please try again to save the sacred Goblet!")
+Choice.create(start_slide_id: 20, description: "You really are a true ninja, you super kicked IFRIT out into the night sky!! You have the Goblet and have brought peace and harmony back to your village!! WELL DONE!")
+Choice.create(start_slide_id: 21, description: "SMASH!!
 You throw the potion at IFRIT and it smashes against his scaly body and freezes him into eternity!!!
 CONGRATULATIONS!!!! You have the Goblet and have brought peace and harmony back to your village!!")
-Choice.create(start_slide: 22, description: "AHHHH, OUCH!! Your puney, weak, ninja skills are no match for the magnificent IFRIT YOU LOSE THE END Please try again to save the sacred Goblet!")
-Choice.create(start_slide: 23, description: "We hear you NINJA #{nickname}!! The spirits of ninjas past, bestow you with their powers and you blast the feeble IFRIT out of Earths orbit!! Ninja’s always look after one another… CONGRATULATIONS #{nickname}
+Choice.create(start_slide_id: 22, description: "AHHHH, OUCH!! Your puney, weak, ninja skills are no match for the magnificent IFRIT YOU LOSE THE END Please try again to save the sacred Goblet!")
+Choice.create(start_slide_id: 23, description: "We hear you NINJA!! The spirits of ninjas past, bestow you with their powers and you blast the feeble IFRIT out of Earths orbit!! Ninja’s always look after one another… CONGRATULATIONS
 You have the Goblet and have brought peace and harmony back to your village!!")

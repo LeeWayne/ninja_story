@@ -6,16 +6,20 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+Story.delete_all
+Slide.delete_all
+Choice.delete_all
+
 Story.create(sypnosis:"The sacred Goblet of your village has been stolen!! It’s up to you to retrieve the sacred Goblet and restore peace and harmony to the people! Good Luck!", user_id: "")
 
 
-Slide.create(id: 1, image: "/assets/images/backdrops/Slide_1 hi_res.png", story_id: 1, description: "You leave the village and you come across a rickety bridge do you..")
+Slide.create(id: 1, image: "backdrops/Slide_1_hi_res.png", story_id: 1, description: "You leave the village and you come across a rickety bridge do you..")
 
-Slide.create(id: 2, image: "", story_id: 1, description: "The bridge falls behind you but you made it! You stop for a second to collect some water from the well! Whoa, there’s a goblin, do you..")
+Slide.create(id: 2, image: "backdrops/Slide_1_hi_res.png", story_id: 1, description: "The bridge falls behind you but you made it! You stop for a second to collect some water from the well! Whoa, there’s a goblin, do you..")
 
-Slide.create(id: 3, image: "", story_id: 1, description: "Great jump! Whoa, there’s a rival ninja, do you..")
+Slide.create(id: 3, image: "backdrops/Slide_1_hi_res.png", story_id: 1, description: "Great jump! Whoa, there’s a rival ninja, do you..")
 
-Slide.create(id: 4, image: "", story_id: 1, description: "You bored him unconscious! You see a cloak on a tree and pick it up. Look, spikes are blocking your way, what are you going to do…")
+Slide.create(id: 4, image: "backdrops/Slide_1_hi_res.png", story_id: 1, description: "You bored him unconscious! You see a cloak on a tree and pick it up. Look, spikes are blocking your way, what are you going to do…")
 
 Slide.create(id: 5, image: "", story_id: 1, description: "Great ninja skills! You pick up a freezing potion dropped by the ninja! You see a dark, creepy looking cave with two openings, what now ninja??")
 

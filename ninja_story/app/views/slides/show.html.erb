@@ -1,1 +1,9 @@
-show.html.erb
+
+
+<h1>Slide <%= @slide.id %></h1>
+<h2><%= @slide.description%></h2>
+<a href ="/slides/<%= @slide.choices.first.end_slide_id %>"><%= @slide.choices.first.description %></a>
+<a href ="/slides/<%= @slide.choices.last.end_slide_id %>"><%= @slide.choices.last.description %></a>
+
+
+

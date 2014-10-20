@@ -9,7 +9,7 @@
 Story.create(sypnosis:"The sacred Goblet of your village has been stolen!! It’s up to you to retrieve the sacred Goblet and restore peace and harmony to the people! Good Luck!", user_id: "")
 
 
-Slide.create(id: 1, image: "", story_id: 1, description: "You leave the village and you come across a rickety bridge do you..")
+Slide.create(id: 1, image: "/assets/images/backdrops/Slide_1 hi_res.png", story_id: 1, description: "You leave the village and you come across a rickety bridge do you..")
 
 Slide.create(id: 2, image: "", story_id: 1, description: "The bridge falls behind you but you made it! You stop for a second to collect some water from the well! Whoa, there’s a goblin, do you..")
 

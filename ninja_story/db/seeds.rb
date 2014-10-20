@@ -56,14 +56,14 @@ Slide.create(id: 18, image: "backdrops/Slide_14,16,18_hi_res.png", story_id: 1, 
 
 Slide.create(id: 19, image: "backdrops/Slide_end.png", story_id: 1, description: "WHAT WERE YOU THINKING NINJA?? A small amount of water cannot defeat a beast as large as Ifrit! THE END Please try again to save the sacred Goblet!")
 
-Slide.create(id: 20, image: "", story_id: 1, description: "CONGRATULATIONS!!!!!!! You really are a true ninja, you super kicked IFRIT out into the night sky!! You have the Goblet and have brought peace and harmony back to your village!! WELL DONE!!")
+Slide.create(id: 20, image: "backdrops/congratulations.png", story_id: 1, description: "CONGRATULATIONS!!!!!!! You really are a true ninja, you super kicked IFRIT out into the night sky!! You have the Goblet and have brought peace and harmony back to your village!! WELL DONE!!")
 
-Slide.create(id: 21, image: "", story_id: 1, description: "SMASH!! You throw the potion at IFRIT and it smashes against his scaly body and freezes him into eternity!!! CONGRATULATIONS!!!!!!! You have the Goblet and have brought peace and harmony back to your village!!
+Slide.create(id: 21, image: "backdrops/congratulations.png", story_id: 1, description: "SMASH!! You throw the potion at IFRIT and it smashes against his scaly body and freezes him into eternity!!! CONGRATULATIONS!!!!!!! You have the Goblet and have brought peace and harmony back to your village!!
 ")
 
 Slide.create(id: 22, image: "backdrops/Slide_end.png", story_id: 1, description: "AHHHH, OUCH!! Your puney, weak, ninja skills are no match for the magnificent IFRIT YOU LOSE THE END Please try again to save the sacred Goblet!")
 
-Slide.create(id: 23, image: "", story_id: 1, description: "We hear you NINJA!!
+Slide.create(id: 23, image: "backdrops/congratulations.png", story_id: 1, description: "We hear you NINJA!!
 The spirits of ninjas past, bestow you with their powers and you blast the feeble IFRIT out of Earths orbit!! Ninja’s always look after one another…..CONGRATULATIONS You have the Goblet and have brought peace and harmony back to your village!! THE END")
 
 Choice.create(start_slide_id: 1, end_slide_id: 2, description: "Take your chance over the bridge?")

@@ -1,5 +1,4 @@
-
-<div style='background-image: url("/assets/<%= @slide.image %>"); height: 100vh; background-size: cover; background-position: top;  background-repeat: no-repeat;'>
+<!-- <div style='background-image: url("/assets/<%= @slide.image %>"); height: 100vh; background-size: cover; background-position: top;  background-repeat: no-repeat;'> -->
   <div class= "description">
     <!-- <h2>Scene <%#= @slide.id %></h2> -->
     <h3><%= @slide.description%></h3>
@@ -7,8 +6,9 @@
     <a href ="/slides/<%= @slide.choices.last.end_slide_id %>"><%= @slide.choices.last.description %></a>
   </div>
 
+  <img src="<%= asset_path( 'ninja/ninja2_cropped.png' ) %>" class="<%= params[:controller] %>_<%= params[:action] %>_<%= params[:id] %>" />
 
-</div>
+<!-- </div> -->
 
 
 

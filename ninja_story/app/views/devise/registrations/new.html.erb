@@ -1,13 +1,4 @@
-<div class="welcome">
-<h2>Make your journey across sacred land to find the missing Goblet!</h2>
-</div>
-
-
-<div style='background_image:'>
- <%=image_tag("backdrops/homepageimage.jpg", alt: "Example Image", class: 'homepageimage')%>
-</div>
-<div class="sign_up">
-<h2>Become A Hero!</h2>
+<h2>Sign up</h2>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= devise_error_messages! %>

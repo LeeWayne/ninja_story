@@ -19,7 +19,7 @@ Slide.create(id: 2, image: "backdrops/Slide_2_hi_res.png", story_id: 1, descript
 
 Slide.create(id: 3, image: "backdrops/Slide_3_hi_res.png", story_id: 1, description: "Great jump! Whoa, there’s a rival ninja, do you..")
 
-Slide.create(id: 4, image: "backdrops/Slide_4_hi_res.png", story_id: 1, description: "You bored him unconscious! You see a cloak on a tree and pick it up. Look, spikes are blocking your way, what are you going to do…")
+Slide.create(id: 4, image: "backdrops/slide_4_hi_res.png", story_id: 1, description: "You bored him unconscious! You see a cloak on a tree and pick it up. Look, spikes are blocking your way, what are you going to do…")
 
 Slide.create(id: 5, image: "backdrops/Slide_5_hi_res.png", story_id: 1, description: "Great ninja skills! You pick up a freezing potion dropped by the ninja! You see a dark, creepy looking cave with two openings, what now ninja??")
 
@@ -31,7 +31,7 @@ Slide.create(id: 8,image: "backdrops/Slide_8_hi_res.png", story_id: 1, descripti
 
 Slide.create(id: 9, image: "backdrops/Slide_end.png", story_id: 1, description: "AAAHHHHHHHH!!!! The spiders cover you from head to toe and you can’t get away!! THE END Please try again to save the sacred Goblet!")
 
-Slide.create(id: 10, image: "backdrops/Slide_10_hi_res.png", story_id: 1, description: "You ducked and weaved past the bats like the Ninja you are and made it through the other side! An old, wise mage is floating in your way, the mage seem’s nice, doesn’t it??? Your choice…")
+Slide.create(id: 10, image: "backdrops/Slide_10_hi_res.png", story_id: 1, description: "You ducked and weaved past the bats like the Ninja you are and made it through the other side! An old, wise mage, is floating in your way, the mage seem’s nice, doesn’t it??? Your choice…")
 
 Slide.create(id: 11, image: "backdrops/Slide_end.png", story_id: 1, description: "CHOMP!!! The snake is quicker than you ninja, and gobbles you up! THE END
 Please try again to save the sacred Goblet!")
@@ -48,7 +48,7 @@ THE END Please try again to save the sacred Goblet!
 ")
 
 Slide.create(id: 16, image: "backdrops/Slide_14,16,18_hi_res.png", story_id: 1, description: "Well done. The mage was once a member of your village but was cursed by 
-a mythical creature and fled. She understands you and lets you past. The legends are true, the mythical dragon, IFRIT, is alive and he has the Goblet!!! What are YOU going to do Ninja??")
+a mythical creature and fled. It understands you and lets you past. The legends are true, the mythical dragon, IFRIT, is alive and he has the Goblet!!! What are YOU going to do Ninja??")
 
 Slide.create(id: 17, image: "backdrops/Slide_end.png", story_id: 1, description: "WHOOSH! The evil spirit sucks you up and throws you back to the beginning… THE END Please try again to save the sacred Goblet!")
 
@@ -83,7 +83,7 @@ Choice.create(start_slide_id: 7, description: "OH NO!!!!! THE BRIDGE COLLAPSES!!
 Choice.create(start_slide_id: 8, end_slide_id: 13, description: "Try to run past him as he only has one leg!")
 Choice.create(start_slide_id: 8, end_slide_id: 14, description: "Give him the cloak you picked up earlier…")
 Choice.create(start_slide_id: 9, description: "AAAHHHHHHHH!!!! The spiders cover you from head to toe and you can’t get away!! THE END Please try again to save the sacred Goblet!")
-Choice.create(start_slide_id: 10, end_slide_id: 15, description: "Ninja roll underneath the old witch!")
+Choice.create(start_slide_id: 10, end_slide_id: 15, description: "Ninja roll underneath the Mage!")
 Choice.create(start_slide_id: 10, end_slide_id: 16, description: "Tell the mage about your quest in hope it will aid you on you travels!")
 Choice.create(start_slide_id: 11, description: "CHOMP!!!
 The snake is quicker than you ninja, and gobbles you up! THE END Please try again to save the sacred Goblet!")
@@ -92,11 +92,11 @@ Choice.create(start_slide_id: 12, end_slide_id: 18, description: "Play the old f
 Choice.create(start_slide_id: 13, description: "STOMP!!
 Frank hopped from his boulders and squished you…..THE END Please try again to save the sacred Goblet!")
 Choice.create(start_slide_id: 14, end_slide_id: 19, description: "You throw the water you cleverly picked up earlier, on the fire breathing beast!")
-Choice.create(start_slide_id: 14, end_slide_id: 20, description: "You use your super Ninja bicycle kick to defeat the dragon!")
+Choice.create(start_slide_id: 14, end_slide_id: 20, description: "You use your super Ninja kick to defeat the dragon!")
 Choice.create(start_slide_id: 15, description: "FREEZE!!
 The mage petrifies you in your path, you can no longer move ninja… THE END Please try again to save the sacred Goblet!")
 Choice.create(start_slide_id: 16, end_slide_id: 21, description: "Use the freezing potion dropped earlier by the ninja!")
-Choice.create(start_slide_id: 16, end_slide_id: 22, description: "You use your super Ninja kick to defeat the dragon!")
+Choice.create(start_slide_id: 16, end_slide_id: 22, description: "You use your super Ninja bicycle kick to defeat the dragon!")
 Choice.create(start_slide_id: 17, description: "WHOOSH!
 The evil spirit sucks you up and spits you out to the Gods… THE END Please try again to save the sacred Goblet!")
 Choice.create(start_slide_id: 18, end_slide_id: 22, description: "Round house kick the evil dragon in the belly, knocking the smoke out of him!!")

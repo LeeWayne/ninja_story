@@ -96,7 +96,7 @@ Choice.create(start_slide_id: 14, end_slide_id: 20, description: "You use your s
 Choice.create(start_slide_id: 15, description: "FREEZE!!
 The mage petrifies you in your path, you can no longer move ninja… THE END Please try again to save the sacred Goblet!")
 Choice.create(start_slide_id: 16, end_slide_id: 21, description: "Use the freezing potion dropped earlier by the ninja!")
-Choice.create(start_slide_id: 16, end_slide_id: 22, description: "You use your super Ninja bicycle kick to defeat the dragon!")
+Choice.create(start_slide_id: 16, end_slide_id: 22, description: "You use your super Ninja kick to defeat the dragon!")
 Choice.create(start_slide_id: 17, description: "WHOOSH!
 The evil spirit sucks you up and spits you out to the Gods… THE END Please try again to save the sacred Goblet!")
 Choice.create(start_slide_id: 18, end_slide_id: 22, description: "Round house kick the evil dragon in the belly, knocking the smoke out of him!!")

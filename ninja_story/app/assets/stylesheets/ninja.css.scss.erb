@@ -133,23 +133,23 @@
 /**********************************************/
 .slides_show_10 {
   height: 300px;
+  width: 205px;
   margin-left: 400px;
   margin-top: 20px;
   background-repeat: no-repeat;
   background-size: auto 100%;
+  display: block;
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
   background-image: url('<%= asset_path( 'ninja2_cropped.png' ) %>');
 
   &:hover {
     height: 300px;
     margin-left: 400px;
+    display: block;
     background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-image: url('<%= asset_path( 'ninja/ninja_2_jump.png' ) %>');
-    -webkit-animation: spin 2s infinite linear;
-    @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(100deg);}
-    100% { -webkit-transform: rotate(360deg);}
-  }
+    background-size: auto 90%;
+    background-image: url('<%= asset_path( 'ninja/ninja2_jump_small.png' ) %>');
+   -webkit-transform: translate3d(1%, 0, 0) rotate3d(0, 0, 1, 360deg);
   }
 }
 /**********************************************/
@@ -164,7 +164,18 @@
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-image: url('<%= asset_path( 'ninja2_cropped.png' ) %>');
+
+  &:hover {
+    width:300px;
+    height: 300px;
+    margin-left: 500px;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    background-image: url('<%= asset_path( 'ninja/ninja3_cropped.png' ) %>');
+  }
 }
+
+
 /**********************************************/
 .slides_show_13 {
   display: none; 
@@ -177,7 +188,21 @@
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-image: url('<%= asset_path( 'ninja2_cropped.png' ) %>');
+  -webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+  -webkit-animation-timing-function: ease-in;
+
+  &:hover {
+    height: 300px;
+    width: 208px;
+    margin-left: 400px;
+    background-repeat: no-repeat;
+    background-size: auto 93%;
+    background-image: url('<%= asset_path( 'ninja/roundhouse.png' ) %>');
+    -webkit-transform: perspective(400px);
+    -webkit-animation-name: flip;
+  }
 }
+/*bicycle kick*/
 /**********************************************/
 .slides_show_15 {
   display: none; 
@@ -190,7 +215,18 @@
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-image: url('<%= asset_path( 'ninja2_cropped.png' ) %>');
+
+  &:hover {
+    width:300px;
+    height: 300px;
+    margin-left: 400px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-image: url('<%= asset_path( 'ninja/ninjapotion.png' ) %>');
+  }
 }
+
+/*freezing potion in hand*/
 /**********************************************/
 .slides_show_17 {
   display: none;
@@ -203,6 +239,17 @@
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-image: url('<%= asset_path( 'ninja2_cropped.png' ) %>');
+
+  &:hover {
+    width: 500px;
+    height: 300px;
+    width: 208px;
+    margin-left: 400px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-image: url('<%= asset_path( 'ninja/ninjahelp.png' ) %>');
+   
+  }
 }
 /**********************************************/
 .slides_show_19 {

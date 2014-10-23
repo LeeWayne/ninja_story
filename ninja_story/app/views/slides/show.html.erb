@@ -3,7 +3,9 @@
     <!-- <h2>Scene <%#= @slide.id %></h2> -->
     <h3><%= @slide.description%></h3>
     <a href ="/slides/<%= @slide.choices.first.end_slide_id %>"><%= @slide.choices.first.description %></a><br>
+    <% if @slide.choices.count > 1 %>
     <a href ="/slides/<%= @slide.choices.last.end_slide_id %>"><%= @slide.choices.last.description %></a>
+    <% end %>
   </div>
 
   <div class="<%= params[:controller] %>_<%= params[:action] %>_<%= params[:id] %>"></div>

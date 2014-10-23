@@ -5,6 +5,7 @@ gem 'rails', '3.2.19'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'devise'
+gem 'cancancan', '~> 1.9'
 gem 'pg'
 gem 'awesome_print', :group => :development
 group :development, :test do

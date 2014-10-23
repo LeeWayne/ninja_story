@@ -9,10 +9,10 @@
 <body style="background-image: url('/assets/<%= @slide.try(:image) %>');">
 
   <nav class="header">
-    <h1>Ninja Story</h1>
+    <h1><%= link_to 'NinjaStory', slides_path %></h1>
+    <p><%= link_to 'Logout', destroy_user_session_path, method: :delete %><p>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
-    <p><%= link_to 'Logout', destroy_user_session_path, method: :delete %><p>
   </nav>
 
   <%= yield %>
